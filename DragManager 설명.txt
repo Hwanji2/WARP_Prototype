@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -18,7 +18,7 @@ public class DragManager : MonoBehaviour
     private float zoneCooldown = 1f;      // 쿨타임 – 너무 빨리 여러 번 그리지 못하게
 
     // 롤백용 데이터 – 나중에 되돌릴 오브젝트 저장 
-    /*근데 이거 오버라 삭제하는게 좋을 듯함*/
+	/*근데 이거 오버라 삭제하는게 좋을 듯함*/
     private class RewindData
     {
         public GameObject obj;
