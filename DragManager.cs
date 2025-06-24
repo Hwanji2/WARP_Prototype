@@ -1,4 +1,24 @@
-﻿using UnityEngine;
+﻿
+/*
+ * 내일은 머지 DraggManager 실험용
+ * 
+ * @author 이지환
+ * @since 2025
+ * 
+ * 사용하려면 Draggable이라는 태그와
+ * zone이라는 네모 스프라이트 프리팹
+ * 카메라가 있어야함
+ * 
+ * 태그를 만든 이유는 모두 다 드래그의 영향을 받으면
+ * 문제가 발생할 것 같아서임
+ * 
+ * 
+ * 
+ */
+
+
+
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
