@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckDistance, groundLayerMask);
         bool hitGround = hit.collider != null;
-        return hitGround && rigid.velocity.y <= 0f;
+        return hitGround && rigid.linearVelocity.y <= 0f;
     }
 
     private void Awake()
@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         float h = Input.GetAxis("Horizontal");
 
-        rigid.velocity = new Vector2(h * speed, rigid.velocity.y);
+        rigid.linearVelocity = new Vector2(h * speed, rigid.linearVelocity.y);
     }
 
     private void LookForward()
