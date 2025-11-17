@@ -19,9 +19,6 @@
 /Prefabs/Zone.prefab
 /Scenes/2dflat (테스트 씬)
 
-yaml
-코드 복사
-
 ---
 
 ## Setup
@@ -96,8 +93,6 @@ LMB Up
 → find Draggable inside
 → on next Zone → teleport to center
 
-yaml
-코드 복사
 
 ---
 
